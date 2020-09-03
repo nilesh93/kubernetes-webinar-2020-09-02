@@ -1,0 +1,14 @@
+apiVersion: v1
+data:
+  config.json: |-
+    {
+        "APP_VERSION": "2.0.0"
+    }
+  config.secret.json: |-
+    {
+    "API_KEY": "Default Secret"
+    }
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: config-json
